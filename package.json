@@ -15,8 +15,8 @@
     "deploy:ropsten": "graph deploy balancer-labs/balancer-ropsten subgraph.ropsten.yaml --debug --ipfs https://api.thegraph.com/ipfs/ --node https://api.thegraph.com/deploy/",
     "deploy:goerli": "graph deploy balancer-labs/balancer-subgraph subgraph.goerli.yaml --debug --ipfs http://localhost:5001/ --node http://127.0.0.1:8020/",
     "deploy:local": "graph deploy balancer-labs/balancer-subgraph subgraph.yaml --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
-    "deploy:bsc": "graph deploy balancer-labs/balancer-subgraph-testnet subgraph.bsc-mainnet.yaml --ipfs https://api.bscgraph.org/ --node https://api.bscgraph.org/deploy --debug",
-    "deploy:bsctest": "graph deploy balancer-labs/balancer-subgraph subgraph.bsc-testnet.yaml --ipfs https://api.bscgraph.org/ --node https://api.bscgraph.org/deploy --debug"
+    "deploy:bsc": "graph deploy balancer-labs/balancer-subgraph subgraph.bsc-mainnet.yaml --ipfs https://api.bscgraph.org/ --node https://api.bscgraph.org/deploy --debug",
+    "deploy:bsctest": "graph deploy balancer-labs/balancer-subgraph-test subgraph.bsc-testnet.yaml --ipfs https://api.bscgraph.org/ --node https://api.bscgraph.org/deploy --debug"
   },
   "devDependencies": {
     "@graphprotocol/graph-cli": "^0.18.0",
